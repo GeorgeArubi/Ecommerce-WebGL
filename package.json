@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-webgl",
+  "version": "1.0.0",
+  "description": "TBD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeArubi/Ecommerce-WebGL.git"
+  },
+  "author": "George Arubi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeArubi/Ecommerce-WebGL/issues"
+  },
+  "homepage": "https://github.com/GeorgeArubi/Ecommerce-WebGL#readme"
+}
