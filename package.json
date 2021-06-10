@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "TBD",
   "scripts": {
-    "build": "",
-    "dev": "",
-    "start": ""
+    "build": "webpack -p --progress --config webpack.config.build.js",
+    "development": "webpack-dev-server --progress --config webpack.config.development.js",
+    "start": "npm run development"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/GeorgeArubi/Ecommerce-WebGL/issues"
   },
-  "homepage": "https://github.com/GeorgeArubi/Ecommerce-WebGL#readme"
+  "homepage": "https://github.com/GeorgeArubi/Ecommerce-WebGL#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
 }
