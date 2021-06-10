@@ -4,7 +4,7 @@
   "description": "TBD",
   "scripts": {
     "build": "webpack -p --progress --config webpack.config.build.js",
-    "development": "webpack-dev-server --progress --config webpack.config.development.js",
+    "development": "webpack serve --progress --config webpack.config.development.js",
     "start": "npm run development"
   },
   "repository": {
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/GeorgeArubi/Ecommerce-WebGL#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.0",
+    "mini-css-extract-plugin": "^1.6.0",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2",
